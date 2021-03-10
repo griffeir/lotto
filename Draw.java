@@ -7,27 +7,24 @@
  */
 public class Draw
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Draw
-     */
-    public Draw()
+    //fields
+    private final int MIN = 1;
+    private final int MAX = 40;
+    
+    public Draw(int NUMBERS)
     {
-        // initialise instance variables
-        x = 0;
+        //declare arrray
+        int[] draw = new int[NUMBERS];
+        
+        //initialise the array values
+        for (int index = 0; index < LIMIT; index++) {
+            draw[index] = index * MULTIPLE;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    for (int value : list) {
+            System.out.println(value + "    ");
+        }
     }
 }
+
+    
